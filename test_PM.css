@@ -46,43 +46,111 @@ body {
   display: inline-block;
   position: relative;
 
+  width: 22vw;
+  margin-top: 0.3vw;
   margin-left: 50%;
 }
 
 .PMFrame .ProfilePic {
   display: inherit;
-  margin-right: 5px;
+  position: absolute;
 
-  width: 45px;
-  height: 45px;
+  width: 2.65vw;
+  height: 2.65vw;
 
   border-radius: 50%;
 }
 
 .PMFrame .Name {
   display: inherit;
-  position: inherit;
+  position: absolute;
+
+  margin-left: 3.2vw;
+  margin-top: 0.5vw;
+
   font-weight: 500;
-  font-size: 14px;
-  
-  bottom: 22.5px;
+  font-size: 0.81vw;
+}
+
+.PMFrame .PMContentFirst {
+  display: inherit;
+  position: inherit;
+
+  margin-top: 1.8vw;
+  margin-left: 3.2vw;
+  margin-bottom: 0.1vw;
+
+  font-weight: 400;
+  font-size: 0.91vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
 }
 
 .PMFrame .PMContent {
   display: inherit;
   position: inherit;
 
-  top: 35px;
-  right: 47px;
+  margin-left: 3.2vw;
+  margin-bottom: 0.1vw;
 
   font-weight: 400;
-  font-size: 16px;
+  font-size: 0.91vw;
 
   color: #ffffff;
   background-color: #7846fe;
 
-  padding: 15px 20px 15px 20px;
-  border-radius: 5px 27px 27px 27px;
+  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
+}
+
+.PMFrame .PMContentLast {
+  display: inherit;
+  position: inherit;
+
+  margin-left: 3.2vw;
+
+  font-weight: 400;
+  font-size: 0.91vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
+}
+
+.PMFrame .PMContentOnlyOne {
+  display: inherit;
+  position: inherit;
+
+  margin-top: 1.8vw;
+  margin-left: 3.2vw;
+  margin-bottom: 0.1vw;
+
+  font-weight: 400;
+  font-size: 0.91vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
+}
+
+.PMFrame .Time {
+  display: inherit;
+  position: inherit;
+
+  top: 1vw;
+
+  font-weight: 300;
+  font-size: 0.6vw;
+
+  color: #444444;
 }
 
 /*footer*/
