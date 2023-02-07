@@ -7,7 +7,7 @@ body {
 .title {
   display: inline-block;
   margin-top: 25px;
-  margin-bottom: 75px;
+  margin-bottom: 20px;
   margin-left: 2%;
   
   color: #000000;
@@ -39,6 +39,111 @@ body {
   color: #000000;
 
   transition: all 200ms;
+}
+
+/*main*/
+.MusicFrame {
+  display: inline-block;
+
+  margin-left: 6.5%;
+  margin-bottom:3vw;
+  width: 40%;
+}
+
+.MusicFrame .Date {
+  margin: 0% 0% 0.1vw 0%;
+
+  font-weight: 500;
+  font-size: 1.25vw;
+}
+
+.MusicFrame .Thumbnail {
+  width: 25%;
+}
+
+.MusicFrame .Info {
+  display: inline-block;
+
+  margin-left: 2%;
+  width: auto;
+
+  font-size: 1vw;
+}
+
+.MusicFrame .Info .MusicTitle {
+  position: relative;
+  
+  bottom: 3.2vw;
+}
+
+.MusicFrame .Info .MusicAlbum {
+  position: relative;
+
+  bottom: 2.7vw;
+}
+
+.MusicFrame .Info .MusicArtist {
+  position: relative;
+
+  bottom: 2.2vw;
+}
+
+
+.MusicFrame .Info .MusicRelease {
+  position: relative;
+
+  bottom: 1.7vw;
+}
+
+.MusicFrame .Info .MusicListen {
+  position: relative;
+
+  bottom: 1.2vw;
+}
+
+.PMFrame {
+  display: inline-block;
+  position: relative;
+
+  margin-left: 1vw;
+
+  width: 35%;
+}
+
+.PMFrame .ProfilePic {
+  display: inherit;
+  margin-right: 5px;
+
+  width: 2vw;
+  height: 2vw;
+
+  border-radius: 50%;
+}
+
+.PMFrame .Name {
+  display: inherit;
+  position: inherit;
+  font-weight: 500;
+  font-size: 0.65vw;
+  
+  bottom: 1.1vw;
+}
+
+.PMFrame .PMContent {
+  display: inherit;
+  position: inherit;
+
+  left: 2.6vw;
+  bottom: 1vw;
+
+  font-weight: 400;
+  font-size: 0.75vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.75vw 1vw 0.75vw 1vw;
+  border-radius: 5px 27px 27px 27px;
 }
 
 /*footer*/
