@@ -1,0 +1,164 @@
+body {
+  background-color: #daccf8;
+  font-family: 'SCoreDream';
+ }
+
+/*title*/
+.title {
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 75px;
+  margin-left: 2%;
+  
+  color: #000000;
+  font-size: 50px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menu {
+  margin-right: 10px;
+
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#titleNmenu a:link {
+  text-decoration: none;
+  color: #444444;
+}
+
+#titleNmenu a:visited {
+  text-decoration: none;
+  color: #444444;
+}
+
+#titleNmenu a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  color: #000000;
+
+  transition: all 200ms;
+}
+
+/*footer*/
+footer {
+  margin-top: 175px;
+}
+
+footer div.bordertop {
+  width: 700px;
+  border-top: 1.5px solid #444444;
+
+  margin: auto;
+}
+
+footer div.links {
+  font-weight: 300;
+  font-size: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+footer div.links span {
+  margin-left: 2px;
+  margin-right: 2px;
+
+  color: #444444;
+}
+
+footer div.links a {
+  margin-left: 2px;
+  margin-right: 2px;
+
+  color: #444444;
+}
+
+footer div a:link {
+  text-decoration: none;
+}
+
+footer div a:hover {
+  color: #000000;
+  text-decoration: underline;
+
+  font-weight: 400;
+}
+
+footer div a:visited {
+  text-decoration: none;
+}
+
+/*
+링크별 클래스 - 혹 필요하다면 쓰자
+footer div a.youtube {
+  text-decoration: none;
+}
+
+footer div a.twitter {
+  text-decoration: none;
+}
+
+footer div a.instagram {
+  text-decoration: none;  
+}
+
+footer div a.tictok {
+  text-decoration: none;
+}
+
+footer div a.fancafe {
+  text-decoration: none;
+}
+
+footer div a.jtwitter {
+  text-decoration: none;
+}
+
+footer div a.weibo {
+  text-decoration: none;
+}
+
+footer div a.mnetp {
+  text-decoration: none;
+}
+*/
+
+footer p.credit {
+  font-weight: 400;
+  font-size: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-bottom: 3px;
+} 
+
+footer p.contact {
+  font-weight: 200;
+  font-size: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 3px;
+}
+
+footer p.subtitle {
+  font-family: 'Tangerine';
+  font-size: 24px;
+
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
