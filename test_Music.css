@@ -105,14 +105,16 @@ body {
   display: inline-block;
   position: relative;
 
+  width: 16vw;
+  margin-top: 0.3vw;
   margin-left: 1vw;
 
-  width: 35%;
+  line-height: 1vw;
 }
 
 .PMFrame .ProfilePic {
   display: inherit;
-  margin-right: 5px;
+  position: absolute;
 
   width: 2vw;
   height: 2vw;
@@ -122,28 +124,151 @@ body {
 
 .PMFrame .Name {
   display: inherit;
-  position: inherit;
+  position: absolute;
+
+  margin-left: 2.55vw;
+  margin-top: 0.5vw;
+
   font-weight: 500;
-  font-size: 0.65vw;
-  
-  bottom: 1.1vw;
+  font-size: 0.7vw;
+}
+
+.PMFrame .PMContentFirst {
+  display: inherit;
+  position: inherit;
+
+  margin-top: 1.8vw;
+  margin-left: 2.55vw;
+  margin-bottom: 0.1vw;
+
+  font-weight: 400;
+  font-size: 0.8vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
 }
 
 .PMFrame .PMContent {
   display: inherit;
   position: inherit;
 
-  left: 2.6vw;
-  bottom: 1vw;
+  margin-left: 2.55vw;
+  margin-bottom: 0.1vw;
 
   font-weight: 400;
-  font-size: 0.75vw;
+  font-size: 0.8vw;
 
   color: #ffffff;
   background-color: #7846fe;
 
-  padding: 0.75vw 1vw 0.75vw 1vw;
-  border-radius: 5px 27px 27px 27px;
+  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
+}
+
+.PMFrame .PMContentLast {
+  display: inherit;
+  position: inherit;
+
+  margin-left: 2.55vw;
+
+  font-weight: 400;
+  font-size: 0.8vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
+}
+
+.PMFrame .PMContentOnlyOne {
+  display: inherit;
+  position: inherit;
+
+  margin-top: 1.8vw;
+  margin-left: 2.55vw;
+  margin-bottom: 0.1vw;
+
+  font-weight: 400;
+  font-size: 0.8vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
+}
+
+.PMFrame .PMContentFirstWithEmoji {
+  display: inherit;
+  position: inherit;
+
+  margin-top: 1.8vw;
+  margin-left: 2.55vw;
+  margin-bottom: 0.1vw;
+
+  font-weight: 400;
+  font-size: 0.8vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
+}
+
+.PMFrame .PMContentWithEmoji {
+  display: inherit;
+  position: inherit;
+
+  margin-left: 2.55vw;
+  margin-bottom: 0.1vw;
+
+  font-weight: 400;
+  font-size: 0.8vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
+}
+
+.PMFrame .PMContentLastWithEmoji {
+  display: inherit;
+  position: inherit;
+
+  margin-left: 2.55vw;
+
+  font-weight: 400;
+  font-size: 0.8vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
+}
+
+.PMFrame .PMContentOnlyOneWithEmoji {
+  display: inherit;
+  position: inherit;
+
+  margin-top: 1.8vw;
+  margin-left: 2.55vw;
+  margin-bottom: 0.1vw;
+
+  font-weight: 400;
+  font-size: 0.8vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
 }
 
 /*footer*/

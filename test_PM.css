@@ -49,6 +49,8 @@ body {
   width: 22vw;
   margin-top: 0.3vw;
   margin-left: 50%;
+
+  line-height: 1.25vw;
 }
 
 .PMFrame .ProfilePic {
@@ -138,6 +140,75 @@ body {
   background-color: #7846fe;
 
   padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
+}
+
+.PMFrame .PMContentFirstWithEmoji {
+  display: inherit;
+  position: inherit;
+
+  margin-top: 1.8vw;
+  margin-left: 3.2vw;
+  margin-bottom: 0.1vw;
+
+  font-weight: 400;
+  font-size: 0.91vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
+}
+
+.PMFrame .PMContentWithEmoji {
+  display: inherit;
+  position: inherit;
+
+  margin-left: 3.2vw;
+  margin-bottom: 0.1vw;
+
+  font-weight: 400;
+  font-size: 0.91vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
+}
+
+.PMFrame .PMContentLastWithEmoji {
+  display: inherit;
+  position: inherit;
+
+  margin-left: 3.2vw;
+
+  font-weight: 400;
+  font-size: 0.91vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
+  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
+}
+
+.PMFrame .PMContentOnlyOneWithEmoji {
+  display: inherit;
+  position: inherit;
+
+  margin-top: 1.8vw;
+  margin-left: 3.2vw;
+  margin-bottom: 0.1vw;
+
+  font-weight: 400;
+  font-size: 0.91vw;
+
+  color: #ffffff;
+  background-color: #7846fe;
+
+  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
   border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
 }
 
