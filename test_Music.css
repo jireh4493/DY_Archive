@@ -46,19 +46,29 @@ body {
   display: inline-block;
 
   margin-left: 6.5%;
-  margin-bottom:3vw;
+  margin-bottom: 4vw;
   width: 40%;
 }
 
 .MusicFrame .Date {
-  margin: 0% 0% 0.1vw 0%;
+  margin: 0% 0% 0.3vw 0%;
 
   font-weight: 500;
   font-size: 1.25vw;
 }
 
+.MusicFrame .Date a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.MusicFrame .Date a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
 .MusicFrame .Thumbnail {
-  width: 25%;
+  width: 18vw;
 }
 
 .MusicFrame .Info {
@@ -67,38 +77,80 @@ body {
   margin-left: 2%;
   width: auto;
 
+  font-size: 0.9vw;
+}
+
+.MusicFrame .Info .InfoTextThree {
+  position: relative;
+  
+  bottom: 0.85vw;
+}
+
+.MusicFrame .Info .InfoTextTwo {
+  position: relative;
+
+  bottom: 3.45vw;
+}
+
+.MusicFrame .Info .classified {
+  font-weight: 300;
   font-size: 1vw;
 }
 
 .MusicFrame .Info .MusicTitle {
   position: relative;
   
-  bottom: 3.2vw;
+  bottom: 3.4vw;
+
+  font-weight: 500;
 }
 
 .MusicFrame .Info .MusicAlbum {
   position: relative;
 
-  bottom: 2.7vw;
+  bottom: 2.9vw;
+
+  font-weight: 500;
 }
 
 .MusicFrame .Info .MusicArtist {
   position: relative;
 
-  bottom: 2.2vw;
-}
+  bottom: 2.4vw;
 
+  font-weight: 500;
+}
 
 .MusicFrame .Info .MusicRelease {
   position: relative;
 
-  bottom: 1.7vw;
+  bottom: 1.9vw;
+
+  font-weight: 500;
 }
 
 .MusicFrame .Info .MusicListen {
   position: relative;
 
-  bottom: 1.2vw;
+  bottom: 1.4vw;
+
+  font-weight: 500;
+}
+
+.MusicFrame .Info .MusicListen .divider {
+  font-size: 0.5vw;
+}
+
+.MusicFrame .Info .MusicListen a {
+  font-size: 0.8vw;
+
+  text-decoration: none;
+  color: #000000;
+}  
+
+.MusicFrame .Info .MusicListen a:hover {
+  text-decoration: underline;
+  color: #7846fe;
 }
 
 .PMFrame {
@@ -106,28 +158,16 @@ body {
   position: relative;
 
   width: 16vw;
-  margin-top: 0.3vw;
-  margin-left: 1vw;
+  bottom: 1.08vw;
 
   line-height: 1vw;
-}
-
-.PMFrame .ProfilePic {
-  display: inherit;
-  position: absolute;
-
-  width: 2vw;
-  height: 2vw;
-
-  border-radius: 50%;
 }
 
 .PMFrame .Name {
   display: inherit;
   position: absolute;
 
-  margin-left: 2.55vw;
-  margin-top: 0.5vw;
+  margin-top: 0.25vw;
 
   font-weight: 500;
   font-size: 0.7vw;
@@ -137,17 +177,16 @@ body {
   display: inherit;
   position: inherit;
 
-  margin-top: 1.8vw;
-  margin-left: 2.55vw;
+  margin-top: 1.3vw;
   margin-bottom: 0.1vw;
 
   font-weight: 400;
-  font-size: 0.8vw;
+  font-size: 0.7vw;
 
   color: #ffffff;
   background-color: #7846fe;
 
-  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  padding: 0.8vw 1vw 0.7vw 1.0vw;
   border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
 }
 
@@ -155,16 +194,15 @@ body {
   display: inherit;
   position: inherit;
 
-  margin-left: 2.55vw;
   margin-bottom: 0.1vw;
 
   font-weight: 400;
-  font-size: 0.8vw;
+  font-size: 0.7vw;
 
   color: #ffffff;
   background-color: #7846fe;
 
-  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  padding: 0.8vw 1vw 0.7vw 1.0vw;
   border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
 }
 
@@ -172,15 +210,13 @@ body {
   display: inherit;
   position: inherit;
 
-  margin-left: 2.55vw;
-
   font-weight: 400;
-  font-size: 0.8vw;
+  font-size: 0.7vw;
 
   color: #ffffff;
   background-color: #7846fe;
 
-  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  padding: 0.8vw 1vw 0.7vw 1.0vw;
   border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
 }
 
@@ -188,88 +224,19 @@ body {
   display: inherit;
   position: inherit;
 
-  margin-top: 1.8vw;
-  margin-left: 2.55vw;
+  margin-top: 1.vw;
   margin-bottom: 0.1vw;
 
   font-weight: 400;
-  font-size: 0.8vw;
+  font-size: 0.7vw;
 
   color: #ffffff;
   background-color: #7846fe;
 
-  padding: 0.9vw 1.0vw 0.8vw 1.1vw;
+  padding: 0.8vw 1vw 0.7vw 1.0vw;
   border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
 }
 
-.PMFrame .PMContentFirstWithEmoji {
-  display: inherit;
-  position: inherit;
-
-  margin-top: 1.8vw;
-  margin-left: 2.55vw;
-  margin-bottom: 0.1vw;
-
-  font-weight: 400;
-  font-size: 0.8vw;
-
-  color: #ffffff;
-  background-color: #7846fe;
-
-  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
-  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
-}
-
-.PMFrame .PMContentWithEmoji {
-  display: inherit;
-  position: inherit;
-
-  margin-left: 2.55vw;
-  margin-bottom: 0.1vw;
-
-  font-weight: 400;
-  font-size: 0.8vw;
-
-  color: #ffffff;
-  background-color: #7846fe;
-
-  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
-  border-radius: 0.3vw 1.3vw 1.3vw 0.3vw;
-}
-
-.PMFrame .PMContentLastWithEmoji {
-  display: inherit;
-  position: inherit;
-
-  margin-left: 2.55vw;
-
-  font-weight: 400;
-  font-size: 0.8vw;
-
-  color: #ffffff;
-  background-color: #7846fe;
-
-  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
-  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
-}
-
-.PMFrame .PMContentOnlyOneWithEmoji {
-  display: inherit;
-  position: inherit;
-
-  margin-top: 1.8vw;
-  margin-left: 2.55vw;
-  margin-bottom: 0.1vw;
-
-  font-weight: 400;
-  font-size: 0.8vw;
-
-  color: #ffffff;
-  background-color: #7846fe;
-
-  padding: 0.65vw 1.0vw 0.65vw 1.1vw;
-  border-radius: 0.3vw 1.3vw 1.3vw 1.3vw;
-}
 
 /*footer*/
 footer {
