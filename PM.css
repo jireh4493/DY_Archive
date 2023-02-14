@@ -7,11 +7,10 @@ body {
 .title {
   display: inline-block;
   margin-top: 25px;
-  margin-bottom: 60px;
   margin-left: 2%;
   
   color: #000000;
-  font-size: 50px;
+  font-size: clamp(2.9rem, 2.9vw, 2.9vw);
   font-weight: 600;
   text-decoration: none;
 }
