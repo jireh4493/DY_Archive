@@ -11,7 +11,7 @@ body {
   margin-left: 2%;
   
   color: #000000;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 600;
   text-decoration: none;
 }
@@ -157,7 +157,7 @@ body {
   display: inline-block;
   position: relative;
 
-  width: 16vw;
+  width: 20vw;
   bottom: 1.08vw;
 
   line-height: 1vw;
@@ -195,6 +195,7 @@ body {
   position: inherit;
 
   margin-bottom: 0.1vw;
+  bottom: 0.03vw;
 
   font-weight: 400;
   font-size: 0.7vw;
@@ -209,6 +210,8 @@ body {
 .PMFrame .PMContentLast {
   display: inherit;
   position: inherit;
+
+  margin-bottom: 0.1vw;
 
   font-weight: 400;
   font-size: 0.7vw;
@@ -225,7 +228,6 @@ body {
   position: inherit;
 
   margin-top: 1.3vw;
-  margin-bottom: 0.1vw;
 
   font-weight: 400;
   font-size: 0.7vw;
