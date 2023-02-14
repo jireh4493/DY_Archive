@@ -100,7 +100,7 @@ body {
 .MusicFrame .Info .MusicTitle {
   position: relative;
   
-  bottom: 3.4vw;
+  bottom: 3vw;
 
   font-weight: 500;
 }
@@ -108,7 +108,7 @@ body {
 .MusicFrame .Info .MusicAlbum {
   position: relative;
 
-  bottom: 2.9vw;
+  bottom: 2.6vw;
 
   font-weight: 500;
 }
@@ -116,7 +116,7 @@ body {
 .MusicFrame .Info .MusicArtist {
   position: relative;
 
-  bottom: 2.4vw;
+  bottom: 2.2vw;
 
   font-weight: 500;
 }
@@ -124,7 +124,7 @@ body {
 .MusicFrame .Info .MusicRelease {
   position: relative;
 
-  bottom: 1.9vw;
+  bottom: 1.8vw;
 
   font-weight: 500;
 }
@@ -224,7 +224,7 @@ body {
   display: inherit;
   position: inherit;
 
-  margin-top: 1.vw;
+  margin-top: 1.3vw;
   margin-bottom: 0.1vw;
 
   font-weight: 400;
@@ -240,7 +240,7 @@ body {
 
 /*footer*/
 footer {
-  margin-top: 175px;
+  margin-top: 50px;
 }
 
 footer div.bordertop {
