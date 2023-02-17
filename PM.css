@@ -53,6 +53,18 @@ body {
   font-size: 0.5vw;
 }
 
+.SelectorFrame .DateFrame {
+  margin: 0%;
+}
+
+.SelectorFrame .DateFrame .SpecificDate {
+  display: inline-block;
+  margin: 2vw 4vw 1vw 0%;
+
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+
 .PM {
   display: inline-block;
   width: 40%;
