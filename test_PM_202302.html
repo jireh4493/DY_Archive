@@ -6,11 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://webfontworld.github.io/score/SCoreDream.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine" />
-  <link rel="stylesheet" href="test_PM_Text.css">
+  <link rel="stylesheet" href="PM_Text.css">
 
   <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="Plugins/jQuery Cookie/jquery.cookie.js"></script>
 </head>
 <body>
+  <script>
+    var Nickname = decodeURI($.cookie('Nickname'));
+    var d = document.getElementsByClassName("DisplayNickname");
+    var i = 0;
+    
+    while (d.length > i) {
+      d[i].innerHTML = Nickname;
+      i++;
+    }
+  </script>
+
   <div class="DateFrame">
     <span class="Date" id="20230206">02.06</span>
   </div>
@@ -116,10 +128,10 @@
   <div class="PMFrame">
     <img src="IMG/Profile/IMG_2514.jpg" alt="PM Profile" class="ProfilePic">
     <div class="Name">요니><</div>
-    <span class="PMContentFirst">오늘도 너무너무너무너무너무<br>고마워써 케플리안</span>
+    <span class="PMContentFirst">오늘도 너무너무너무너무너무<br>고마워써 <span class="DisplayNickname">케플리안</span></span>
     <span class="PMContent">담에는 말 더 많이 하께</span>
     <span class="PMContent">충전 많이 해봐야게따 헤</span>
-    <span class="PMContentLast">굿나잇 케플리안🌙</span>
+    <span class="PMContentLast">굿나잇 <span class="DisplayNickname">케플리안</span>🌙</span>
     <span class="Time">22:40</span>
   </div>
 </body>
