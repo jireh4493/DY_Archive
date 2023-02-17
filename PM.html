@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="PM.css">
 
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="Plugins/jquery-3.6.3.js"></script>
   <script src="Plugins/jQuery Cookie/jquery.cookie.js"></script>
   <script>
     function SetNicknameCookie() {
@@ -20,6 +21,11 @@
     $(function() {
         $("#202302").on("click", function() {
            $(".PM").load("PM_202302.html");
+        });
+    });
+    $(function() {
+        $("#20230210").on("click", function() {
+           $(".PM").load("PM_20230210.html");
         });
     });
     $(function() {
@@ -71,6 +77,7 @@
   <div class="PM"></div>
 
   <p id="202302">202302</p>
+  <p id="20230210">20230210</p>
   <p id="20230212">20230212</p>
   <p id="20230215">20230215</p>
 
