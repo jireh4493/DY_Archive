@@ -7,43 +7,15 @@
   <link href="https://webfontworld.github.io/score/SCoreDream.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine" />
   <link rel="stylesheet" href="PM.css">
+  <link rel="preload" as="style" href="PM_Text.css">
+  <link rel="preload" as="script" href="PM_Text.js">
+  <link rel="preload" as="image" href="IMG/Profile/IMG_2514.jpg">
 
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="Plugins/jquery-3.6.3.js"></script>
   <script src="Plugins/jQuery Cookie/jquery.cookie.js"></script>
-  <script>
-    function SetNicknameCookie() {
-      var Cookie = document.getElementById("NicknameInput").value;
-
-      document.cookie = "Nickname=" + encodeURI(Cookie);
-    };
-
-    $(function() {
-        $("#20230206").on("click", function() {
-           $(".PM").load("PM_20230206.html");
-        });
-    });
-    $(function() {
-        $("#20230208").on("click", function() {
-           $(".PM").load("PM_20230208.html");
-        });
-    });
-    $(function() {
-        $("#20230210").on("click", function() {
-           $(".PM").load("PM_20230210.html");
-        });
-    });
-    $(function() {
-        $("#20230212").on("click", function() {
-           $(".PM").load("PM_20230212.html");
-        });
-    });
-    $(function() {
-        $("#20230215").on("click", function() {
-           $(".PM").load("PM_20230215.html");
-        });
-    });
-  </script>
+  <script src="PM.js"></script>
+  
   <title>DY</title>
 </head>
 <body>
@@ -76,6 +48,17 @@
       <p class="SpecificDate">Year</p>
       <p class="SpecificDate">Month</p>
       <p class="SpecificDate">Day</p>
+    </div>
+    <div class="DateFrame2">
+      <div>
+        <span>2021</span>
+      </div>
+      <div>
+        <span>2022</span>
+      </div>
+      <div>
+        <span>2023</span>
+      </div>
     </div>
   </div>
   
