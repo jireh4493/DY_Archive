@@ -57,23 +57,105 @@ body {
   margin: 0%;
 }
 
-.SelectorFrame .DateFrame .SpecificDate {
+.SelectorFrame .DateFrame .SpecificSelector {
   display: inline-block;
-  margin: 2vw 4vw 1vw 0%;
+  margin: 2vw 5vw 1vw 0%;
 
   font-weight: 400;
   font-size: 1.5vw;
 }
 
-.SelectorFrame .DateFrame2 {
+.SelectorFrame .DateSelector {
+  display: inline-block;
+
   font-weight: 300;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
+}
+
+.SelectorFrame .Year {
+  display: inline-block;
+  position: relative;
+
+  bottom: 44.7vh;
+
+  font-weight: 300;
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+
+.SelectorFrame .Year #Year2022 {
+  margin-bottom: 0.3vw;
+}
+
+.SelectorFrame .Month {
+  display: inline-block;
+  position: relative;
+
+  bottom: 7.7vh;
+  left: 1.675vw;
+  
+  font-weight: 300;
+  font-size: 1.3vw;
+  cursor: pointer;
+
+  opacity: 0;
+}
+
+.SelectorFrame .Month ol {
+  margin: 0vw;
+  list-style: none;
+  text-align: center;
+}
+
+.SelectorFrame .Month ol li {
+  margin-bottom: 0.5vw;
+}
+
+.SelectorFrame .Date {
+  display: inline-block;
+  position: relative;
+
+  left: 3.1vw;
+
+  font-weight: 300;
+  font-size: 1.3vw;
+  cursor: pointer;
+
+  opacity: 0;
+
+  height: 50vh;
+  overflow-y: scroll;
+}
+
+.SelectorFrame .Date ol {
+  margin: 0vw;
+  list-style: none;
+  text-align: center;
+}
+
+.SelectorFrame .Date ol li {
+  margin-right: 1vw;
+  margin-bottom: 0.35vw;
+} 
+
+.SelectorFrame .Date::-webkit-scrollbar {
+  width: 0.75vw;
+}
+
+.SelectorFrame .Date::-webkit-scrollbar-thumb {
+  background-color: #7746fe20;
+  border-radius: 0.7vw;
+}
+
+.SelectorFrame .Date::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.0);
 }
 
 .PM {
   display: inline-block;
+  position: relative;
   width: 40%;
-  height: 65vh;
+  height: 70vh;
 
   overflow-y: scroll;
 }
