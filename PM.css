@@ -43,6 +43,8 @@ body {
 /*main*/
 .SelectorFrame {
   display: inline-block;
+  position: relative;
+  bottom: 30vw;
   margin: 0% 6.5% 0% 6.5%;
   width: 36%;
   min-width: 30rem;
@@ -57,98 +59,64 @@ body {
   margin: 0%;
 }
 
-.SelectorFrame .DateFrame .SpecificSelector {
-  display: inline-block;
-  margin: 2vw 5vw 1vw 0%;
+.SpecificSelector {
+  margin-top: 2vw;
+  margin-bottom: 1vh;
 
   font-weight: 400;
   font-size: 1.5vw;
 }
 
-.SelectorFrame .DateSelector {
-  display: inline-block;
-
-  font-weight: 300;
-  font-size: 1.3vw;
+.DateFrame {
+  display: flex;
+  width: 25vw;
+  justify-content: space-between;
 }
 
-.SelectorFrame .Year {
-  display: inline-block;
-  position: relative;
-
-  bottom: 44.7vh;
-
+.DateFrame .Year {
   font-weight: 300;
   font-size: 1.3vw;
-  cursor: pointer;
+  text-align: center;
 }
 
-.SelectorFrame .Year #Year2022 {
+.DateFrame .Year #Year2022 {
   margin-bottom: 0.3vw;
 }
 
-.SelectorFrame .Month {
-  display: inline-block;
-  position: relative;
-
-  bottom: 7.7vh;
-  left: 1.675vw;
-  
+.DateFrame .Month {
   font-weight: 300;
   font-size: 1.3vw;
-  cursor: pointer;
-
-  opacity: 0;
-}
-
-.SelectorFrame .Month ol {
-  margin: 0vw;
-  list-style: none;
   text-align: center;
 }
 
-.SelectorFrame .Month ol li {
+.DateFrame .Month ol {
+  list-style: none;
+  margin: 0vw;
+  padding: 0vw;
+}
+
+.DateFrame .Month ol li {
   margin-bottom: 0.5vw;
 }
 
-.SelectorFrame .Date {
-  display: inline-block;
-  position: relative;
+.DateFrame .Date {
+  display: flex;
+  flex-direction: column;
 
-  left: 3.1vw;
+  margin: 0vw;
 
   font-weight: 300;
   font-size: 1.3vw;
-  cursor: pointer;
-
-  opacity: 0;
-
-  height: 50vh;
-  overflow-y: scroll;
-}
-
-.SelectorFrame .Date ol {
-  margin: 0vw;
-  list-style: none;
   text-align: center;
 }
 
-.SelectorFrame .Date ol li {
-  margin-right: 1vw;
-  margin-bottom: 0.35vw;
-} 
-
-.SelectorFrame .Date::-webkit-scrollbar {
-  width: 0.75vw;
+.DateFrame .Date .Datelist {
+  display: flex;
+  justify-content: center;
 }
 
-.SelectorFrame .Date::-webkit-scrollbar-thumb {
-  background-color: #7746fe20;
-  border-radius: 0.7vw;
-}
-
-.SelectorFrame .Date::-webkit-scrollbar-track {
-  background-color: rgba(255, 255, 255, 0.0);
+.DateFrame .Date .Datelist ol li {
+  margin-bottom: 0.3vw;
 }
 
 .PM {

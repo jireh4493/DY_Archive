@@ -1,8 +1,8 @@
-.DateFrame {
+.DateFramePM {
   margin: 1vw;
 }
 
-.DateFrame .Date {
+.DateFramePM .DatePM {
   margin-left: 50%;
   transform: translate(-50%);
 

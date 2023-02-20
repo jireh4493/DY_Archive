@@ -103,7 +103,7 @@ function Year2022ToMonth() {
     resetDate();
     $("#Year2022").css("font-weight", "500");
     $("#Year2023").css("font-weight", "300");
-    $(".Month").css("opacity", "1");
+    $(".Monthlist").css("opacity", "1");
     $("#January").css("opacity", "1");
     $("#February").css("opacity", "1");
     $("#March").css("opacity", "1");
@@ -122,7 +122,7 @@ function Year2023ToMonth() {
     resetDate();
     $("#Year2022").css("font-weight", "300");
     $("#Year2023").css("font-weight", "500");
-    $(".Month").css("opacity", "1");
+    $(".Monthlist").css("opacity", "1");
     $("#January").css("opacity", "1");
     $("#February").css("opacity", "1");
 }
@@ -130,7 +130,7 @@ function Year2023ToMonth() {
 function JanuaryToDate() {
     resetDate();
     resetDateFontweight();
-    $(".Date").css("opacity", "1");
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "500");
     $("#February").css("font-weight", "300");
     $("#March").css("font-weight", "300");
@@ -213,7 +213,8 @@ function JanuaryToDate() {
 }
 function FebruaryToDate() {
     resetDate();
-    $(".Date").css("opacity", "1");
+    resetDateFontweight();
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "300");
     $("#February").css("font-weight", "500");
     $("#March").css("font-weight", "300");
@@ -296,7 +297,8 @@ function FebruaryToDate() {
 }
 function MarchToDate() {
     resetDate();
-    $(".Date").css("opacity", "1");
+    resetDateFontweight();
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "300");
     $("#February").css("font-weight", "300");
     $("#March").css("font-weight", "500");
@@ -344,7 +346,7 @@ function MarchToDate() {
 }
 function AprilToDate() {
     resetDate();
-    $(".Date").css("opacity", "1");
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "300");
     $("#February").css("font-weight", "300");
     $("#March").css("font-weight", "300");
@@ -392,7 +394,7 @@ function AprilToDate() {
 }
 function MayToDate() {
     resetDate();
-    $(".Date").css("opacity", "1");
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "300");
     $("#February").css("font-weight", "300");
     $("#March").css("font-weight", "300");
@@ -440,7 +442,7 @@ function MayToDate() {
 }
 function JuneToDate() {
     resetDate();
-    $(".Date").css("opacity", "1");
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "300");
     $("#February").css("font-weight", "300");
     $("#March").css("font-weight", "300");
@@ -488,7 +490,7 @@ function JuneToDate() {
 }
 function JulyToDate() {
     resetDate();
-    $(".Date").css("opacity", "1");
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "300");
     $("#February").css("font-weight", "300");
     $("#March").css("font-weight", "300");
@@ -536,7 +538,7 @@ function JulyToDate() {
 }
 function AugustToDate() {
     resetDate();
-    $(".Date").css("opacity", "1");
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "300");
     $("#February").css("font-weight", "300");
     $("#March").css("font-weight", "300");
@@ -584,7 +586,7 @@ function AugustToDate() {
 }
 function SeptemberToDate() {
     resetDate();
-    $(".Date").css("opacity", "1");
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "300");
     $("#February").css("font-weight", "300");
     $("#March").css("font-weight", "300");
@@ -632,7 +634,7 @@ function SeptemberToDate() {
 }
 function OctoberToDate() {
     resetDate();
-    $(".Date").css("opacity", "1");
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "300");
     $("#February").css("font-weight", "300");
     $("#March").css("font-weight", "300");
@@ -680,7 +682,7 @@ function OctoberToDate() {
 }
 function NovemberToDate() {
     resetDate();
-    $(".Date").css("opacity", "1");
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "300");
     $("#February").css("font-weight", "300");
     $("#March").css("font-weight", "300");
@@ -728,7 +730,7 @@ function NovemberToDate() {
 }
 function DecemberToDate() {
     resetDate();
-    $(".Date").css("opacity", "1");
+    $(".Datelist").css("opacity", "1");
     $("#January").css("font-weight", "300");
     $("#February").css("font-weight", "300");
     $("#March").css("font-weight", "300");
@@ -779,7 +781,7 @@ $(function() {
     $("#Date6").on("click", function() {
         if ($("#Year2023").css("font-weight") == 500) {
             if ($("#February").css("font-weight") == 500) {
-                $(".PM").load("PM_20230206.html");
+                $(".PM").load("PM/PM_20230206.html");
                 resetDateFontweight();
                 $("#Date6").css("font-weight", "500");
             }
@@ -790,7 +792,7 @@ $(function() {
     $("#Date8").on("click", function() {
         if ($("#Year2023").css("font-weight") == 500) {
             if ($("#February").css("font-weight") == 500) {
-                $(".PM").load("PM_20230208.html");
+                $(".PM").load("PM/PM_20230208.html");
                 resetDateFontweight();
                 $("#Date8").css("font-weight", "500");
             }
@@ -801,7 +803,7 @@ $(function() {
     $("#Date10").on("click", function() {
         if ($("#Year2023").css("font-weight") == 500) {
             if ($("#February").css("font-weight") == 500) {
-                $(".PM").load("PM_20230210.html");
+                $(".PM").load("PM/PM_20230210.html");
                 resetDateFontweight();
                 $("#Date10").css("font-weight", "500");
             }
@@ -812,7 +814,7 @@ $(function() {
     $("#Date12").on("click", function() {
         if ($("#Year2023").css("font-weight") == 500) {
             if ($("#February").css("font-weight") == 500) {
-                $(".PM").load("PM_20230212.html");
+                $(".PM").load("PM/PM_20230212.html");
                 resetDateFontweight();
                 $("#Date12").css("font-weight", "500");
             }
@@ -823,7 +825,7 @@ $(function() {
     $("#Date15").on("click", function() {
         if ($("#Year2023").css("font-weight") == 500) {
             if ($("#February").css("font-weight") == 500) {
-                $(".PM").load("PM_20230215.html");
+                $(".PM").load("PM/PM_20230215.html");
                 resetDateFontweight();
                 $("#Date15").css("font-weight", "500");
             }

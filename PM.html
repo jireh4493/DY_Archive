@@ -7,8 +7,8 @@
   <link href="https://webfontworld.github.io/score/SCoreDream.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine" />
   <link rel="stylesheet" href="PM.css">
-  <link rel="preload" as="style" href="PM_Text.css">
-  <link rel="preload" as="script" href="PM_Text.js">
+  <link rel="preload" as="style" href="PM/PM_Text.css">
+  <link rel="preload" as="script" href="PM/PM_Text.js">
   <link rel="preload" as="image" href="IMG/Profile/IMG_2514.jpg">
 
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -32,87 +32,92 @@
 
   <div class="Divider" style="margin-top: 40px;"><!--divider--></div>
 
-  <div class="SelectorFrame">
-    <div class="NicknameFrame">
-      <input type="text" id="NicknameInput" style="height: 1.55vw;">
-      <button id="SendNickname" onclick="SetNicknameCookie()" style="margin-left: 0.5vw; font-family: 'SCoreDream'; font-size: 1vw; width: auto; height: 2vw;">닉네임 설정/변경</button>
-      <div style="font-weight: 200; font-size: 0.8vw; margin-top: 0.5vw;">
-        <div>*닉네임은 모든 문자 사용가능하나 너무 긴 닉네임 사용은 권하지 않습니다.</div>
-        <div>**닉네임 설정/변경 모두 새로고침 이후 적용됩니다.</div>
-        <div>***닉네임 적용 전에는 '케플리안'으로 표현됩니다.</div>
-        <div>****닉네임은 창을 닫으면 초기화됩니다.</div>
+  <div style="display: flex-inline; flex-wrap: wrap; align-items: flex-end;">
+    <div class="SelectorFrame">
+      <div class="NicknameFrame">
+        <input type="text" id="NicknameInput" style="height: 1.55vw;">
+        <button id="SendNickname" onclick="SetNicknameCookie()" style="margin-left: 0.5vw; font-family: 'SCoreDream'; font-size: 1vw; width: auto; height: 2vw;">닉네임 설정/변경</button>
+        <div style="font-weight: 200; font-size: 0.8vw; margin-top: 0.5vw;">
+          <div>*닉네임은 모든 문자 사용가능하나 너무 긴 닉네임 사용은 권하지 않습니다.</div>
+          <div>**닉네임 설정/변경 모두 새로고침 이후 적용됩니다.</div>
+          <div>***닉네임 적용 전에는 '케플리안'으로 표현됩니다.</div>
+          <div>****닉네임은 창을 닫으면 초기화됩니다.</div>
+        </div>
+      </div>
+  
+      <div class="DateFrame">
+        <div class="Year">
+          <div class="SpecificSelector" style="opacity: 1;">Year</div>
+          <div id="Year2022" onclick="Year2022ToMonth()">2022</div>
+          <div id="Year2023" onclick="Year2023ToMonth()">2023</div>
+        </div>
+    
+        <div class="Month">
+          <div class="SpecificSelector">Month</div>
+          <ol class="Monthlist" style="opacity: 0;">
+            <li id="January" onclick="JanuaryToDate()">January</li>
+            <li id="February" onclick="FebruaryToDate()">February</li>
+            <li id="March" onclick="MarchToDate()">March</li>
+            <li id="April" onclick="AprilToDate()">April</li>
+            <li id="May" onclick="MayToDate()">May</li>
+            <li id="June" onclick="JuneToDate()">June</li>
+            <li id="July" onclick="JulyToDate()">July</li>
+            <li id="August" onclick="AugustToDate()">August</li>
+            <li id="September" onclick="SeptemberToDate()">September</li>
+            <li id="October" onclick="OctoberToDate()">October</li>
+            <li id="November" onclick="NovemberToDate()">November</li>
+            <li id="December" onclick="DecemberToDate()">December</li>
+          </ol>
+        </div>
+    
+        <div class="Date">
+          <div class="SpecificSelector">Date</div>
+          <div class="Datelist" style="opacity: 0;">
+            <ol style="display: inline-block; padding: 0vw; list-style: none; margin: 0vw 1vw 0vw 0vw;">
+              <li id="Date1">1st</li>
+              <li id="Date2">2nd</li>
+              <li id="Date3">3rd</li>
+              <li id="Date4">4th</li>
+              <li id="Date5">5th</li>
+              <li id="Date6">6th</li>
+              <li id="Date7">7th</li>
+              <li id="Date8">8th</li>
+              <li id="Date9">9th</li>
+              <li id="Date10">10th</li>
+              <li id="Date11">11th</li>
+              <li id="Date12">12th</li>
+              <li id="Date13">13th</li>
+              <li id="Date14">14th</li>
+              <li id="Date15">15th</li>
+              <li id="Date16">16th</li>
+            </ol>
+            <ol style="display: inline-block; padding: 0%; list-style: none; margin: 0vw;">
+              <li id="Date17">17th</li>
+              <li id="Date18">18th</li>
+              <li id="Date19">19th</li>
+              <li id="Date20">20th</li>
+              <li id="Date21">21st</li>
+              <li id="Date22">22nd</li>
+              <li id="Date23">23rd</li>
+              <li id="Date24">24th</li>
+              <li id="Date25">25th</li>
+              <li id="Date26">26th</li>
+              <li id="Date27">27th</li>
+              <li id="Date28">28th</li>
+              <li id="Date29">29th</li>
+              <li id="Date30">30th</li>
+              <li id="Date31">31st</li>
+            </ol>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="DateFrame">
-      <p class="SpecificSelector">Year</p>
-      <p class="SpecificSelector">Month</p>
-      <p class="SpecificSelector">Day</p>
-    </div>
-
-    <div class="Year" style="display: inline-block;">
-      <div id="Year2022" onclick="Year2022ToMonth()">2022</div>
-      <div id="Year2023" onclick="Year2023ToMonth()">2023</div>
-    </div>
-
-    <div class="Month">
-      <ol>
-        <li id="January" onclick="JanuaryToDate()">January</li>
-        <li id="February" onclick="FebruaryToDate()">February</li>
-        <li id="March" onclick="MarchToDate()">March</li>
-        <li id="April" onclick="AprilToDate()">April</li>
-        <li id="May" onclick="MayToDate()">May</li>
-        <li id="June" onclick="JuneToDate()">June</li>
-        <li id="July" onclick="JulyToDate()">July</li>
-        <li id="August" onclick="AugustToDate()">August</li>
-        <li id="September" onclick="SeptemberToDate()">September</li>
-        <li id="October" onclick="OctoberToDate()">October</li>
-        <li id="November" onclick="NovemberToDate()">November</li>
-        <li id="December" onclick="DecemberToDate()">December</li>
-      </ol>
-    </div>
-
-    <div class="Date">
-      <ol>
-        <li id="Date1">1st</li>
-        <li id="Date2">2nd</li>
-        <li id="Date3">3rd</li>
-        <li id="Date4">4th</li>
-        <li id="Date5">5th</li>
-        <li id="Date6">6th</li>
-        <li id="Date7">7th</li>
-        <li id="Date8">8th</li>
-        <li id="Date9">9th</li>
-        <li id="Date10">10th</li>
-        <li id="Date11">11th</li>
-        <li id="Date12">12th</li>
-        <li id="Date13">13th</li>
-        <li id="Date14">14th</li>
-        <li id="Date15">15th</li>
-        <li id="Date16">16th</li>
-        <li id="Date17">17th</li>
-        <li id="Date18">18th</li>
-        <li id="Date19">19th</li>
-        <li id="Date20">20th</li>
-        <li id="Date21">21st</li>
-        <li id="Date22">22nd</li>
-        <li id="Date23">23rd</li>
-        <li id="Date24">24th</li>
-        <li id="Date25">25th</li>
-        <li id="Date26">26th</li>
-        <li id="Date27">27th</li>
-        <li id="Date28">28th</li>
-        <li id="Date29">29th</li>
-        <li id="Date30">30th</li>
-        <li id="Date31">31st</li>
-      </ol>
-    </div>
-
+      
+    <div class="PM"></div>
   </div>
 
-  <div class="PM"></div>
 
-  
+
   <footer>
     <div class="bordertop"><!--border top--></div>
     <div class="links">
