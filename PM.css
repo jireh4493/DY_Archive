@@ -43,8 +43,6 @@ body {
 /*main*/
 .SelectorFrame {
   display: inline-block;
-  position: relative;
-  bottom: 30vw;
   margin: 0% 6.5% 0% 6.5%;
   width: 36%;
   min-width: 30rem;
