@@ -777,6 +777,29 @@ function DecemberToDate() {
     $("#Date31").css("opacity", "1");
 }
 
+
+$(function() {
+    $("#Date1").on("click", function() {
+        if ($("#Year2023").css("font-weight") == 500) {
+            if ($("#February").css("font-weight") == 500) {
+                $(".PM").load("PM/PM_20230201.html");
+                resetDateFontweight();
+                $("#Date1").css("font-weight", "500");
+            }
+        }
+    });
+});
+$(function() {
+    $("#Date3").on("click", function() {
+        if ($("#Year2023").css("font-weight") == 500) {
+            if ($("#February").css("font-weight") == 500) {
+                $(".PM").load("PM/PM_20230203.html");
+                resetDateFontweight();
+                $("#Date3").css("font-weight", "500");
+            }
+        }
+    });
+});
 $(function() {
     $("#Date6").on("click", function() {
         if ($("#Year2023").css("font-weight") == 500) {
