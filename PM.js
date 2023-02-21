@@ -777,7 +777,31 @@ function DecemberToDate() {
     $("#Date31").css("opacity", "1");
 }
 
+//2023년 1월
+$(function() {
+    $("#Date26").on("click", function() {
+        if ($("#Year2023").css("font-weight") == 500) {
+            if ($("#January").css("font-weight") == 500) {
+                $(".PM").load("PM/PM_20230126.html");
+                resetDateFontweight();
+                $("#Date26").css("font-weight", "500");
+            }
+        }
+    });
+});
+$(function() {
+    $("#Date28").on("click", function() {
+        if ($("#Year2023").css("font-weight") == 500) {
+            if ($("#January").css("font-weight") == 500) {
+                $(".PM").load("PM/PM_20230128.html");
+                resetDateFontweight();
+                $("#Date28").css("font-weight", "500");
+            }
+        }
+    });
+});
 
+//2023년 2월
 $(function() {
     $("#Date1").on("click", function() {
         if ($("#Year2023").css("font-weight") == 500) {
