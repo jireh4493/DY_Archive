@@ -779,6 +779,50 @@ function DecemberToDate() {
 
 //2023년 1월
 $(function() {
+    $("#Date17").on("click", function() {
+        if ($("#Year2023").css("font-weight") == 500) {
+            if ($("#January").css("font-weight") == 500) {
+                $(".PM").load("PM/PM_20230117.html");
+                resetDateFontweight();
+                $("#Date17").css("font-weight", "500");
+            }
+        }
+    });
+});
+$(function() {
+    $("#Date18").on("click", function() {
+        if ($("#Year2023").css("font-weight") == 500) {
+            if ($("#January").css("font-weight") == 500) {
+                $(".PM").load("PM/PM_20230118.html");
+                resetDateFontweight();
+                $("#Date18").css("font-weight", "500");
+            }
+        }
+    });
+});
+$(function() {
+    $("#Date21").on("click", function() {
+        if ($("#Year2023").css("font-weight") == 500) {
+            if ($("#January").css("font-weight") == 500) {
+                $(".PM").load("PM/PM_20230121.html");
+                resetDateFontweight();
+                $("#Date21").css("font-weight", "500");
+            }
+        }
+    });
+});
+$(function() {
+    $("#Date23").on("click", function() {
+        if ($("#Year2023").css("font-weight") == 500) {
+            if ($("#January").css("font-weight") == 500) {
+                $(".PM").load("PM/PM_20230123.html");
+                resetDateFontweight();
+                $("#Date23").css("font-weight", "500");
+            }
+        }
+    });
+});
+$(function() {
     $("#Date26").on("click", function() {
         if ($("#Year2023").css("font-weight") == 500) {
             if ($("#January").css("font-weight") == 500) {
