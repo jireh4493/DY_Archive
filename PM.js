@@ -779,6 +779,17 @@ function DecemberToDate() {
 
 //2023년 1월
 $(function() {
+    $("#Date14").on("click", function() {
+        if ($("#Year2023").css("font-weight") == 500) {
+            if ($("#January").css("font-weight") == 500) {
+                $(".PM").load("PM/PM_20230114.html");
+                resetDateFontweight();
+                $("#Date14").css("font-weight", "500");
+            }
+        }
+    });
+});
+$(function() {
     $("#Date17").on("click", function() {
         if ($("#Year2023").css("font-weight") == 500) {
             if ($("#January").css("font-weight") == 500) {
